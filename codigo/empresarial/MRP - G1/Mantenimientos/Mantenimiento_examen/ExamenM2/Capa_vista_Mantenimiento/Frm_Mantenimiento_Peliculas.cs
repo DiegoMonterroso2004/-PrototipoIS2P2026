@@ -28,8 +28,7 @@ namespace Capa_Vista_Mantenimiento
             };
 
             string[] columnas = {
-                "tbl_peliculas",
-                "Peliculas",
+                "peliculas",
                 "idPeliculas",
                 "Nombre",
                 "Clasificación",

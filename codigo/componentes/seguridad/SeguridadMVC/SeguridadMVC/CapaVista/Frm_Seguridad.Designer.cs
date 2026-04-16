@@ -28,18 +28,19 @@
             this.modulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Btn_Bitacora = new System.Windows.Forms.ToolStripMenuItem();
+            this.aplicaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cambiarContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignacionDeAplicacionAUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignacionPerfilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignacionDeAplicacionAPerfilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.Btn_Cerrar_Sesion = new System.Windows.Forms.ToolStripMenuItem();
             this.Btn_Ayuda = new System.Windows.Forms.ToolStripMenuItem();
+            this.Btn_Cerrar_Sesion = new System.Windows.Forms.ToolStripMenuItem();
             this.Pnl_Superior = new System.Windows.Forms.Panel();
             this.Pic_Cerrar = new System.Windows.Forms.PictureBox();
-            this.aplicaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.Pnl_Superior.SuspendLayout();
@@ -81,7 +82,7 @@
             this.menuStrip1.MaximumSize = new System.Drawing.Size(0, 503);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 2667, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(3488, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(3461, 28);
             this.menuStrip1.TabIndex = 24;
             this.menuStrip1.Text = "MenuStrip";
             // 
@@ -91,29 +92,29 @@
             this.empleadosToolStripMenuItem1,
             this.perfilesToolStripMenuItem,
             this.modulosToolStripMenuItem});
-            this.catálogosToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.catálogosToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.catálogosToolStripMenuItem.Name = "catálogosToolStripMenuItem";
-            this.catálogosToolStripMenuItem.Size = new System.Drawing.Size(102, 26);
+            this.catálogosToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
             this.catálogosToolStripMenuItem.Text = "Catálogos";
             // 
             // empleadosToolStripMenuItem1
             // 
             this.empleadosToolStripMenuItem1.Name = "empleadosToolStripMenuItem1";
-            this.empleadosToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.empleadosToolStripMenuItem1.Size = new System.Drawing.Size(175, 26);
             this.empleadosToolStripMenuItem1.Text = "Empleados";
             this.empleadosToolStripMenuItem1.Click += new System.EventHandler(this.empleadosToolStripMenuItem1_Click);
             // 
             // perfilesToolStripMenuItem
             // 
             this.perfilesToolStripMenuItem.Name = "perfilesToolStripMenuItem";
-            this.perfilesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.perfilesToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
             this.perfilesToolStripMenuItem.Text = "Perfiles";
             this.perfilesToolStripMenuItem.Click += new System.EventHandler(this.perfilesToolStripMenuItem_Click_1);
             // 
             // modulosToolStripMenuItem
             // 
             this.modulosToolStripMenuItem.Name = "modulosToolStripMenuItem";
-            this.modulosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.modulosToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
             this.modulosToolStripMenuItem.Text = "Modulos";
             this.modulosToolStripMenuItem.Click += new System.EventHandler(this.modulosToolStripMenuItem_Click);
             // 
@@ -122,10 +123,11 @@
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Btn_Bitacora,
             this.aplicaciónToolStripMenuItem,
-            this.usuariosToolStripMenuItem});
-            this.procesosToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.usuariosToolStripMenuItem,
+            this.mantenimientoToolStripMenuItem});
+            this.procesosToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
-            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(95, 26);
+            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
             this.procesosToolStripMenuItem.Text = "Procesos";
             // 
             // Btn_Bitacora
@@ -135,19 +137,33 @@
             this.Btn_Bitacora.Text = "Bitacora";
             this.Btn_Bitacora.Click += new System.EventHandler(this.Btn_Bitacora_Click);
             // 
+            // aplicaciónToolStripMenuItem
+            // 
+            this.aplicaciónToolStripMenuItem.Name = "aplicaciónToolStripMenuItem";
+            this.aplicaciónToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.aplicaciónToolStripMenuItem.Text = "Aplicación";
+            this.aplicaciónToolStripMenuItem.Click += new System.EventHandler(this.aplicaciónToolStripMenuItem_Click);
+            // 
+            // usuariosToolStripMenuItem
+            // 
+            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.usuariosToolStripMenuItem.Text = "Usuarios";
+            this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click_1);
+            // 
             // herramientasToolStripMenuItem
             // 
             this.herramientasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cambiarContraseñaToolStripMenuItem});
-            this.herramientasToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.herramientasToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.herramientasToolStripMenuItem.Name = "herramientasToolStripMenuItem";
-            this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(130, 26);
+            this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(125, 24);
             this.herramientasToolStripMenuItem.Text = "&Herramientas";
             // 
             // cambiarContraseñaToolStripMenuItem
             // 
             this.cambiarContraseñaToolStripMenuItem.Name = "cambiarContraseñaToolStripMenuItem";
-            this.cambiarContraseñaToolStripMenuItem.Size = new System.Drawing.Size(251, 26);
+            this.cambiarContraseñaToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
             this.cambiarContraseñaToolStripMenuItem.Text = "Cambiar contraseña";
             this.cambiarContraseñaToolStripMenuItem.Click += new System.EventHandler(this.cambiarContraseñaToolStripMenuItem_Click);
             // 
@@ -157,47 +173,47 @@
             this.asignacionDeAplicacionAUsuarioToolStripMenuItem,
             this.asignacionPerfilesToolStripMenuItem,
             this.asignacionDeAplicacionAPerfilesToolStripMenuItem});
-            this.asignacionesToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.asignacionesToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.asignacionesToolStripMenuItem.Name = "asignacionesToolStripMenuItem";
-            this.asignacionesToolStripMenuItem.Size = new System.Drawing.Size(129, 26);
+            this.asignacionesToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
             this.asignacionesToolStripMenuItem.Text = "Asignaciones";
             // 
             // asignacionDeAplicacionAUsuarioToolStripMenuItem
             // 
             this.asignacionDeAplicacionAUsuarioToolStripMenuItem.Name = "asignacionDeAplicacionAUsuarioToolStripMenuItem";
-            this.asignacionDeAplicacionAUsuarioToolStripMenuItem.Size = new System.Drawing.Size(372, 26);
+            this.asignacionDeAplicacionAUsuarioToolStripMenuItem.Size = new System.Drawing.Size(360, 26);
             this.asignacionDeAplicacionAUsuarioToolStripMenuItem.Text = "Asignacion De Aplicacion a Usuario";
             this.asignacionDeAplicacionAUsuarioToolStripMenuItem.Click += new System.EventHandler(this.asignacionDeAplicacionAUsuarioToolStripMenuItem_Click);
             // 
             // asignacionPerfilesToolStripMenuItem
             // 
             this.asignacionPerfilesToolStripMenuItem.Name = "asignacionPerfilesToolStripMenuItem";
-            this.asignacionPerfilesToolStripMenuItem.Size = new System.Drawing.Size(372, 26);
+            this.asignacionPerfilesToolStripMenuItem.Size = new System.Drawing.Size(360, 26);
             this.asignacionPerfilesToolStripMenuItem.Text = "Asignacion de Perfil a Usuario";
             this.asignacionPerfilesToolStripMenuItem.Click += new System.EventHandler(this.asignacionPerfilesToolStripMenuItem_Click);
             // 
             // asignacionDeAplicacionAPerfilesToolStripMenuItem
             // 
             this.asignacionDeAplicacionAPerfilesToolStripMenuItem.Name = "asignacionDeAplicacionAPerfilesToolStripMenuItem";
-            this.asignacionDeAplicacionAPerfilesToolStripMenuItem.Size = new System.Drawing.Size(372, 26);
+            this.asignacionDeAplicacionAPerfilesToolStripMenuItem.Size = new System.Drawing.Size(360, 26);
             this.asignacionDeAplicacionAPerfilesToolStripMenuItem.Text = "Asignacion De Aplicacion a Perfiles";
             this.asignacionDeAplicacionAPerfilesToolStripMenuItem.Click += new System.EventHandler(this.asignacionDeAplicacionAPerfilesToolStripMenuItem_Click);
             // 
-            // Btn_Cerrar_Sesion
-            // 
-            this.Btn_Cerrar_Sesion.Font = new System.Drawing.Font("Rockwell", 10F);
-            this.Btn_Cerrar_Sesion.Name = "Btn_Cerrar_Sesion";
-            this.Btn_Cerrar_Sesion.Size = new System.Drawing.Size(131, 26);
-            this.Btn_Cerrar_Sesion.Text = "Cerrar sesión";
-            this.Btn_Cerrar_Sesion.Click += new System.EventHandler(this.Btn_Cerrar_Sesion_Click);
-            // 
             // Btn_Ayuda
             // 
-            this.Btn_Ayuda.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.Btn_Ayuda.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Btn_Ayuda.Name = "Btn_Ayuda";
-            this.Btn_Ayuda.Size = new System.Drawing.Size(74, 26);
+            this.Btn_Ayuda.Size = new System.Drawing.Size(69, 24);
             this.Btn_Ayuda.Text = "Ayuda";
             this.Btn_Ayuda.Click += new System.EventHandler(this.Btn_Ayuda_Click);
+            // 
+            // Btn_Cerrar_Sesion
+            // 
+            this.Btn_Cerrar_Sesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Btn_Cerrar_Sesion.Name = "Btn_Cerrar_Sesion";
+            this.Btn_Cerrar_Sesion.Size = new System.Drawing.Size(125, 24);
+            this.Btn_Cerrar_Sesion.Text = "Cerrar sesión";
+            this.Btn_Cerrar_Sesion.Click += new System.EventHandler(this.Btn_Cerrar_Sesion_Click);
             // 
             // Pnl_Superior
             // 
@@ -224,19 +240,12 @@
             this.Pic_Cerrar.TabStop = false;
             this.Pic_Cerrar.Click += new System.EventHandler(this.Pic_Cerrar_Click);
             // 
-            // aplicaciónToolStripMenuItem
+            // mantenimientoToolStripMenuItem
             // 
-            this.aplicaciónToolStripMenuItem.Name = "aplicaciónToolStripMenuItem";
-            this.aplicaciónToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.aplicaciónToolStripMenuItem.Text = "Aplicación";
-            this.aplicaciónToolStripMenuItem.Click += new System.EventHandler(this.aplicaciónToolStripMenuItem_Click);
-            // 
-            // usuariosToolStripMenuItem
-            // 
-            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.usuariosToolStripMenuItem.Text = "Usuarios";
-            this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click_1);
+            this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
+            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
+            this.mantenimientoToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoToolStripMenuItem_Click);
             // 
             // Frm_Seguridad
             // 
@@ -286,5 +295,6 @@
         private System.Windows.Forms.ToolStripMenuItem Btn_Cerrar_Sesion;
         private System.Windows.Forms.ToolStripMenuItem aplicaciónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoToolStripMenuItem;
     }
 }

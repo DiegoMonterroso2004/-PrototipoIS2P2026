@@ -10,7 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Capa_Controlador_Seguridad;
 using System.IO;
-
+using Capa_vista_Mantenimiento;
+using Capa_Vista_Mantenimiento;
 namespace Capa_Vista_Seguridad
 {
     public partial class Frm_Seguridad : Form
@@ -418,6 +419,13 @@ namespace Capa_Vista_Seguridad
             Frm_Usuario frm = new Frm_Usuario();
             frm.MdiParent = this;
             frm.Show();
+        }
+
+        private void mantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Mantenimiento_Peliculas frm = new Frm_Mantenimiento_Peliculas();
+
+             frm.ShowDialog();
         }
     }
 }

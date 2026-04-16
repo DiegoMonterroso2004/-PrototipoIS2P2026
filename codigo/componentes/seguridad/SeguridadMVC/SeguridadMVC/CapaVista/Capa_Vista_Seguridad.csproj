@@ -41,6 +41,9 @@
     <Reference Include="Capa_Vista_Hoteleria">
       <HintPath>..\..\..\..\..\modulos\hoteleria\Modulos\Proyecto Principal\MDI_Hoteleria\Capa_Vista_Hoteleria\bin\Debug\Capa_Vista_Hoteleria.dll</HintPath>
     </Reference>
+    <Reference Include="Capa_vista_Mantenimiento">
+      <HintPath>..\..\..\..\..\empresarial\MRP - G1\Mantenimientos\Mantenimiento_examen\ExamenM2\Capa_vista_Mantenimiento\bin\Debug\Capa_vista_Mantenimiento.dll</HintPath>
+    </Reference>
     <Reference Include="Capa_Vista_Navegador">
       <HintPath>..\..\..\..\navegador\NavegadorMVC\CapaVistaNavegador\bin\Debug\Capa_Vista_Navegador.dll</HintPath>
     </Reference>

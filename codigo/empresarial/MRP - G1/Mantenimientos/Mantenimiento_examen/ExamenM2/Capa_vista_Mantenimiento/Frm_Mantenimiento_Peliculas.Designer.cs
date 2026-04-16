@@ -1,5 +1,5 @@
 ﻿
-namespace Capa_vista_Mantenimiento
+namespace Capa_Vista_Mantenimiento
 {
     partial class Frm_Mantenimiento_Peliculas
     {

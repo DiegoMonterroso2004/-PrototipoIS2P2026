@@ -28,6 +28,7 @@ namespace Capa_Vista_Mantenimiento
             };
 
             string[] columnas = {
+                "tbl_peliculas",
                 "Peliculas",
                 "idPeliculas",
                 "Nombre",
@@ -48,8 +49,8 @@ namespace Capa_Vista_Mantenimiento
                 "Precio"
             };
 
-            int id_aplicacion = 700;
-            int id_modulo = 5;
+            int id_aplicacion = 800;
+            int id_modulo = 4;
 
             navegador1.IPkId_Aplicacion = id_aplicacion;
             navegador1.IPkId_Modulo = id_modulo;

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36422.26
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa_vista_Mantenimiento", "Capa_vista_Mantenimiento\Capa_vista_Mantenimiento.csproj", "{9F0DF033-79F4-400B-91A2-39F042F30461}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F0DF033-79F4-400B-91A2-39F042F30461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0DF033-79F4-400B-91A2-39F042F30461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0DF033-79F4-400B-91A2-39F042F30461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0DF033-79F4-400B-91A2-39F042F30461}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C4D903A-028A-4A52-8B54-07F24B00C0B8}
+	EndGlobalSection
+EndGlobal
